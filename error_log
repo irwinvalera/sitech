@@ -1,0 +1,63 @@
+[11-Dec-2023 21:12:47 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php:136
+Stack trace:
+#0 /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php(157): Elementor\Core\Frontend\Render_Mode_Manager->add_current_actions()
+#1 /home/bstu2021/public_html/dev/wp-content/plugins/elementor/includes/frontend.php(205): Elementor\Core\Frontend\Render_Mode_Manager->__construct()
+#2 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(324): Elementor\Frontend->init_render_mode('')
+#3 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/bstu2021/public_html/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bstu2021/public_html/dev/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home/bstu2021/public_html/dev/wp-blog-header.php(19): require_once('/home/bstu2021/...')
+#7 /home/bstu2021/ in /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php on line 136
+[11-Dec-2023 21:12:54 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php:136
+Stack trace:
+#0 /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php(157): Elementor\Core\Frontend\Render_Mode_Manager->add_current_actions()
+#1 /home/bstu2021/public_html/dev/wp-content/plugins/elementor/includes/frontend.php(205): Elementor\Core\Frontend\Render_Mode_Manager->__construct()
+#2 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(324): Elementor\Frontend->init_render_mode('')
+#3 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/bstu2021/public_html/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/bstu2021/public_html/dev/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home/bstu2021/public_html/dev/wp-blog-header.php(19): require_once('/home/bstu2021/...')
+#7 /home/bstu2021/ in /home/bstu2021/public_html/dev/wp-content/plugins/elementor/core/frontend/render-mode-manager.php on line 136
+[21-Dec-2023 15:43:53 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp1j_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[23-Dec-2023 17:20:26 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: nombre in /home/bstu2021/public_html/dev/contacto.php on line 4
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: apellido in /home/bstu2021/public_html/dev/contacto.php on line 5
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: correo in /home/bstu2021/public_html/dev/contacto.php on line 6
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: solucion in /home/bstu2021/public_html/dev/contacto.php on line 7
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: celular in /home/bstu2021/public_html/dev/contacto.php on line 8
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: mensaje in /home/bstu2021/public_html/dev/contacto.php on line 9
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: remitente in /home/bstu2021/public_html/dev/contacto.php on line 10
+[24-Dec-2023 15:56:13 UTC] PHP Notice:  Undefined index: asunto in /home/bstu2021/public_html/dev/contacto.php on line 11
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: nombre in /home/bstu2021/public_html/dev/contacto.php on line 4
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: apellido in /home/bstu2021/public_html/dev/contacto.php on line 5
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: correo in /home/bstu2021/public_html/dev/contacto.php on line 6
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: solucion in /home/bstu2021/public_html/dev/contacto.php on line 7
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: celular in /home/bstu2021/public_html/dev/contacto.php on line 8
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: mensaje in /home/bstu2021/public_html/dev/contacto.php on line 9
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: remitente in /home/bstu2021/public_html/dev/contacto.php on line 10
+[24-Dec-2023 16:06:11 UTC] PHP Notice:  Undefined index: asunto in /home/bstu2021/public_html/dev/contacto.php on line 11
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: nombre in /home/bstu2021/public_html/dev/contacto.php on line 4
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: apellido in /home/bstu2021/public_html/dev/contacto.php on line 5
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: correo in /home/bstu2021/public_html/dev/contacto.php on line 6
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: solucion in /home/bstu2021/public_html/dev/contacto.php on line 7
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: celular in /home/bstu2021/public_html/dev/contacto.php on line 8
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: mensaje in /home/bstu2021/public_html/dev/contacto.php on line 9
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: remitente in /home/bstu2021/public_html/dev/contacto.php on line 10
+[24-Dec-2023 16:08:41 UTC] PHP Notice:  Undefined index: asunto in /home/bstu2021/public_html/dev/contacto.php on line 11
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: nombre in /home/bstu2021/public_html/dev/contacto.php on line 4
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: apellido in /home/bstu2021/public_html/dev/contacto.php on line 5
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: correo in /home/bstu2021/public_html/dev/contacto.php on line 6
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: solucion in /home/bstu2021/public_html/dev/contacto.php on line 7
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: celular in /home/bstu2021/public_html/dev/contacto.php on line 8
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: mensaje in /home/bstu2021/public_html/dev/contacto.php on line 9
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: remitente in /home/bstu2021/public_html/dev/contacto.php on line 10
+[24-Dec-2023 16:09:31 UTC] PHP Notice:  Undefined index: asunto in /home/bstu2021/public_html/dev/contacto.php on line 11
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: nombre in /home/bstu2021/public_html/dev/contacto.php on line 4
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: apellido in /home/bstu2021/public_html/dev/contacto.php on line 5
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: correo in /home/bstu2021/public_html/dev/contacto.php on line 6
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: solucion in /home/bstu2021/public_html/dev/contacto.php on line 7
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: celular in /home/bstu2021/public_html/dev/contacto.php on line 8
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: mensaje in /home/bstu2021/public_html/dev/contacto.php on line 9
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: remitente in /home/bstu2021/public_html/dev/contacto.php on line 10
+[24-Dec-2023 16:11:32 UTC] PHP Notice:  Undefined index: asunto in /home/bstu2021/public_html/dev/contacto.php on line 11
+[28-Dec-2023 17:51:35 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_pro_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_pro_updater_cron_interval","args":[],"interval":300}

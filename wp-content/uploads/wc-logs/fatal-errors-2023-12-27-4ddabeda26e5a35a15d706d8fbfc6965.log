@@ -1,0 +1,20 @@
+2023-12-27T00:43:11+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_media_input() in /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce_plugin/woocommerce_plugin.php:17
+Stack trace:
+#0 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(324): woocommerce_additional_media_fields('')
+#1 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/bstu2021/public_html/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/home/bstu2021/...')
+#5 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /home/bstu2021/public_html/dev/wp-conte en /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce_plugin/woocommerce_plugin.php en la línea 17
+
+2023-12-27T01:24:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_media_input() in /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce_plugin/woocommerce_plugin.php:15
+Stack trace:
+#0 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(324): custom_woocommerce_product_fields('')
+#1 /home/bstu2021/public_html/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home/bstu2021/public_html/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/home/bstu2021/...')
+#5 /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /home/bstu2021/public_html/dev/wp-content en /home/bstu2021/public_html/dev/wp-content/plugins/woocommerce_plugin/woocommerce_plugin.php en la línea 15
+
