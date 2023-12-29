@@ -1,3 +1,3 @@
 # README
 
-Sitech WP
+Sitech WP v1.0
